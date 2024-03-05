@@ -11,6 +11,7 @@ public class Democlass {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		
 		System.getProperty("webdriver.chrome.driver","C:\\Users\\AN515-45\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
@@ -20,6 +21,7 @@ public class Democlass {
 		driver.findElement(By.xpath("//button[@id='search-icon-legacy']")).click();	
 		Thread.sleep(2000);
 		driver.close();
+		System.out.println("My second commit");
 
 	}
 
